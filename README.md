@@ -1,5 +1,14 @@
 # E-commerce
 
+## Group Members
+
+* **Leader**: TIYANI NGWANA 231266731 - Payment Entity
+* **Member 2**: ABULELE NTWANAMBI 218276400 - Feedback Entity
+* **Member 3**: NOMHLE NJENGELE 216227488 - ProductCatalog Entity
+* **Member 4**: OWENKOSI NXASANA 230240887 - UserManagement Entity
+* **Member 5**: SINAZO NTSIMBI 222765208 - Delivery Entity
+* **Member 6**: SINETHEMBA NYIMBINYA 220085870 - Order Entity
+
 ## Entities
 
 * **UserManagement**:This handles the people using the system. It keeps track of the differences between customers (who buy things) and administrators (staff members who manage the store).
