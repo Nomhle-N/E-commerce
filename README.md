@@ -46,7 +46,7 @@
 * [ ] **Strict Immutability**: Contains public accessors but **zero setter methods**.
 * [ ] **Validation Failure Logic**: Intentionally returns `null` instead of throwing execution exceptions when invariants fail.
 * [ ] **Includes TDD Tests**: Validates functional parameters using clean JUnit 5 text runners.
-* [ ] **Proper Package Placement**: Strictly fits root package domains (`domain`, `factory`, `repository`, `service`, `controller`).
+* [ ] **Proper Package Placement**: Strictly fits root package domains (`domain`, `factory`, `repository`, `service`, `controller`,`Helper`).
 * [ ] **Author Comments Included**: Structured file header metadata block visible at the absolute top of the source code file.
 * [ ] **No Merge Conflicts**: Branch line matches cleanly with upstream components.
 * [ ] **All Tests Passing**: Local builds pass integration cycles flawlessly.
