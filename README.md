@@ -2,10 +2,10 @@
 
 ## Entities
 
-* **UserManagement**: System actors separating client shoppers from administrators.
-* **ProductCatalog**: Hardware parts and ready-to-use desktop system boundaries.
-* **Order**: Core checkout aggregate roots mapping individual transaction line items.
-* **Payment**: Multi-channel electronic financial logging and processing networks.
+* **UserManagement**:This handles the people using the system. It keeps track of the differences between customers (who buy things) and administrators (staff members who manage the store).
+* **ProductCatalog**:This is the store's inventory. It manages the lists of individual computer parts (like graphics cards or processors) and full, ready-to-use desktop computers that are for sale.
+* **Order**:This handles the checkout process. When a customer buys things, this creates a main receipt that lists every single item they purchased and tracks the overall status of the purchase.
+* **Payment**:It safely records and processes the financial transactions when a customer pays using credit cards or digital wallets.
 * **Delivery**: Logistics tracking, airway bills, and geographic transport milestones.
 * **Feedback**: Customer-submitted product reviews and delivery service rating matrices.
 
