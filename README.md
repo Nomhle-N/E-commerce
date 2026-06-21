@@ -20,7 +20,7 @@
 
 ## Group Members
 
-* **Leader**: TIYANI NGWANA 231266731 - Payment Entity
+* **Member 1**: TIYANI NGWANA 231266731 - Payment Entity
 * **Member 2**: ABULELE NTWANAMBI 218276400 - Feedback Entity
 * **Member 3**: NOMHLE NJENGELE 216227488 - ProductCatalog Entity
 * **Member 4**: OWENKOSI NXASANA 230240887 - UserManagement Entity
