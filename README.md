@@ -20,7 +20,7 @@
 
 ## Group Members
 
-* **Leader**: TIYANI NGWANA 231266731 - Payment Entity
+* **Member 1**: TIYANI NGWANA 231266731 - Payment Entity
 * **Member 2**: ABULELE NTWANAMBI 218276400 - Feedback Entity
 * **Member 3**: NOMHLE NJENGELE 216227488 - ProductCatalog Entity
 * **Member 4**: OWENKOSI NXASANA 230240887 - UserManagement Entity
@@ -49,6 +49,9 @@
 * [ ] **Proper Package Placement**: Strictly fits root package domains (`domain`, `factory`, `repository`, `service`, `controller`, % `helper`).
 * [ ] **Author Comments Included**: Structured file header metadata block visible at the absolute top of the source code file.
 * [ ] **No Merge Conflicts**: Branch line matches cleanly with upstream components.
-* [ ] **All Tests Passing**: Local builds pass integration cycles flawlessly.
+* [ ] **All Tests Are Passing**
 
 ## UML Diagram
+
+<img width="1536" height="1024" alt="final uml" src="https://github.com/user-attachments/assets/eda6382a-5bf6-4091-8384-1de4554c8981" />
+
