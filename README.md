@@ -49,6 +49,6 @@
 * [ ] **Proper Package Placement**: Strictly fits root package domains (`domain`, `factory`, `repository`, `service`, `controller`, % `helper`).
 * [ ] **Author Comments Included**: Structured file header metadata block visible at the absolute top of the source code file.
 * [ ] **No Merge Conflicts**: Branch line matches cleanly with upstream components.
-* [ ] **All Tests Passing**: Local builds pass integration cycles flawlessly.
+* [ ] **All Tests Are Passing**
 
 ## UML Diagram
