@@ -1,9 +1,5 @@
 package cput.ac.za.ecommerce.domain;
-<<<<<<< HEAD
 
-public class Order {
-}
-=======
 /*
  * Order.java
  * Author: Sinethemba Nyimbinya (220085870)
@@ -130,4 +126,3 @@ public class Order {
             }
         }
     }
->>>>>>> b79fd96 (Initial commit)
