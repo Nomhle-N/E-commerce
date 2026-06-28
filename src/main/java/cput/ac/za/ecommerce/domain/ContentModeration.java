@@ -12,6 +12,9 @@ import jakarta.persistence.Embeddable;
 public class ContentModeration {
     private boolean isPubliclyVisible;
     private String filterFlagReason;
+    private String reviewStatus;
+
+
 
     protected ContentModeration() {
     }
@@ -23,13 +26,18 @@ public class ContentModeration {
     public String getFilterFlagReason() {
         return filterFlagReason;
     }
+    public String getReviewStatus() {
+        return reviewStatus;
+    }
     public ContentModeration(Builder builder) {
         this.isPubliclyVisible = builder.isPubliclyVisible;
         this.filterFlagReason = builder.filterFlagReason;
+        this.reviewStatus = builder.reviewStatus;
     }
     public static class Builder {
         private boolean isPubliclyVisible;
         private String filterFlagReason;
+        private String reviewStatus;
 
         public Builder setIsPubliclyVisible(boolean isPubliclyVisible) {
             this.isPubliclyVisible = isPubliclyVisible;
@@ -38,6 +46,11 @@ public class ContentModeration {
 
         public Builder setFilterFlagReason(String filterFlagReason) {
             this.filterFlagReason = filterFlagReason;
+            return this;
+        }
+
+        public Builder setReviewStatus(String reviewStatus) {
+            this.reviewStatus = reviewStatus;
             return this;
         }
 
