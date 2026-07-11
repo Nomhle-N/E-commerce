@@ -31,7 +31,7 @@ public class PaymentServiceImplTest {
     private PaymentRepository repository; // Mocks the database operations layer
 
     @InjectMocks
-    private PaymentServiceImpl service;   // Automatically injects the mocked repository into your service
+    private PaymentServiceImpl service; 
 
     private CardPayment samplePayment;
 
