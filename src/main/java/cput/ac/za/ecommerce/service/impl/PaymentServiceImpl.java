@@ -48,13 +48,8 @@ public class PaymentServiceImpl implements IPaymentService {
     @Override
     public Payment getPaymentById(String paymentId) {
 
-        /*
-           Prevents searching with null or blank IDs.
+        //Prevents searching with null or blank IDs.
 
-           If this validation is removed:
-           - Invalid database queries may be made.
-           - Unnecessary repository calls happen.
-         */
         if (isNullOrEmpty(paymentId)) {
             return null;
         }
@@ -75,9 +70,6 @@ public class PaymentServiceImpl implements IPaymentService {
             return null;
         }
 
-        /*
-           Checks whether the payment already exists before updating.
-         */
 
         if (!repository.existsById(payment.getTransactionId())) {
             return null;

@@ -6,12 +6,12 @@
 
 ## Group Members
 
-* **Member 1**: TIYANI NGWANA 231266731 - Payment Entity
-* **Member 2**: ABULELE NTWANAMBI 218276400 - Feedback Entity
-* **Member 3**: NOMHLE NJENGELE 216227488 - ProductCatalog Entity
-* **Member 4**: OWENKOSI NXASANA 230240887 - UserManagement Entity
-* **Member 5**: SINAZO NTSIMBI 222765208 - Delivery Entity
-* **Member 6**: SINETHEMBA NYIMBINYA 220085870 - Order Entity
+* **Member 1**: TIYANI NGWANA 231266731 - Payment Entity ( CardPayment, DigitalWalletPayment, BillingLocation)
+* **Member 2**: ABULELE NTWANAMBI 218276400 - Feedback Entity (ProductReview, DeliveryServiceReview, ContentModeration)
+* **Member 3**: NOMHLE NJENGELE 216227488 - ProductCatalog Entity (HardwareComponent, PreBuiltSystem, DimensionSpecs)
+* **Member 4**: OWENKOSI NXASANA 230240887 - UserManagement Entity (Customer, Administrator, AccountProfile)
+* **Member 5**: SINAZO NTSIMBI 222765208 - Delivery Entity (DeliveryAddress)
+* **Member 6**: SINETHEMBA NYIMBINYA 220085870 - Order Entity (OrderItem,FinancialBreakdown)
 
 ## Entities
 
