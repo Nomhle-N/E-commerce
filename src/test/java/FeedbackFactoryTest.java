@@ -13,14 +13,14 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 
 public class FeedbackFactoryTest {
-    AccountProfile accountProfile = new AccountProfile.Builder()
+    AccountProfile accountProfile = AccountProfile.builder()
             .setFirstName("Abulele")
             .setLastName("Ntwanambi")
             .setEmail("ntwanambi@gmail.com")
             .setPhoneNumber("0716542389")
             .build();
 
-    Customer customer = new Customer.Builder()
+    Customer customer = Customer.builder()
             .setUserId("C1001")
             .setAccountProfile(accountProfile)
             .setCustomerNumber("CUST-001")
