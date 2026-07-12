@@ -1,3 +1,5 @@
+package cput.ac.za.ecommerce;
+
 import cput.ac.za.ecommerce.domain.*;
 import cput.ac.za.ecommerce.factory.ContentModerationFactory;
 import cput.ac.za.ecommerce.factory.FeedbackFactory;
@@ -6,7 +8,7 @@ import org.junit.jupiter.api.Test;
 import java.time.LocalDate;
 
 import static org.junit.jupiter.api.Assertions.*;
-/*FeedbackFactoryTest.java
+/*cput.ac.za.ecommerce.FeedbackFactoryTest.java
     Feedback factory test class
     Author: Abulele Ntwanambi(218276400)
     Date: 27 June 2026
