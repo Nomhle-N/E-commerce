@@ -8,7 +8,7 @@ package cput.ac.za.ecommerce.service;
 import cput.ac.za.ecommerce.domain.ProductCatalog;
 import java.util.List;
 
-public interface ProductCatalogService {
+public interface IProductCatalogService {
     ProductCatalog saveProductCatalog(ProductCatalog productCatalog);
     ProductCatalog getProductCatalogById(String productId);
     List<ProductCatalog> getAllProductCatalogs();

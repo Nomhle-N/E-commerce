@@ -1,11 +1,8 @@
-package cput.ac.za.ecommerce.service;
+package cput.ac.za.ecommerce.service.impl;
 
-import cput.ac.za.ecommerce.domain.DeliveryServiceReview;
 import cput.ac.za.ecommerce.domain.Feedback;
-import cput.ac.za.ecommerce.domain.ProductReview;
-import cput.ac.za.ecommerce.factory.FeedbackFactory;
 import cput.ac.za.ecommerce.repository.FeedbackRepository;
-import cput.ac.za.ecommerce.service.impl.IFeedback;
+import cput.ac.za.ecommerce.service.IFeedback;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,7 +13,7 @@ import java.util.List;
     Date: 12 July 2026 */
 
 @Service
-public class FeedbackService implements IFeedback {
+public class FeedbackServiceImpl implements IFeedback {
 
     @Autowired
     private FeedbackRepository feedbackRepository;

@@ -6,14 +6,14 @@ package cput.ac.za.ecommerce.service.impl;
  */
 import cput.ac.za.ecommerce.domain.ShipmentTracking;
 import cput.ac.za.ecommerce.repository.ShipmentTrackingRepository;
-import cput.ac.za.ecommerce.service.ShipmentTrackingService;
+import cput.ac.za.ecommerce.service.IShipmentTrackingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-public class ShipmentTrackingServiceImpl implements ShipmentTrackingService {
+public class ShipmentTrackingServiceImpl implements IShipmentTrackingService {
 
     private final ShipmentTrackingRepository repository;
 

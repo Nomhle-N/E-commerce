@@ -9,7 +9,7 @@ import cput.ac.za.ecommerce.domain.ShipmentTracking;
 
 import java.util.List;
 
-public interface ShipmentTrackingService {
+public interface IShipmentTrackingService {
 
     ShipmentTracking create(ShipmentTracking shipmentTracking);
 

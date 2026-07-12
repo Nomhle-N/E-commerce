@@ -7,14 +7,14 @@ package cput.ac.za.ecommerce.service.impl;
 
 import cput.ac.za.ecommerce.domain.ProductCatalog;
 import cput.ac.za.ecommerce.repository.ProductCatalogRepository;
-import cput.ac.za.ecommerce.service.ProductCatalogService;
+import cput.ac.za.ecommerce.service.IProductCatalogService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-public class ProductCatalogServiceImpl implements ProductCatalogService {
+public class ProductCatalogServiceImpl implements IProductCatalogService {
 
     private final ProductCatalogRepository repository;
 

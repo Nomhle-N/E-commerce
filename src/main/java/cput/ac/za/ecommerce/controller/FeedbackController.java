@@ -1,7 +1,7 @@
 package cput.ac.za.ecommerce.controller;
 
 import cput.ac.za.ecommerce.domain.Feedback;
-import cput.ac.za.ecommerce.service.FeedbackService;
+import cput.ac.za.ecommerce.service.impl.FeedbackServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -14,9 +14,9 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/feedback")
 public class FeedbackController {
-
+/*
     @Autowired
-    private FeedbackService feedbackService;
+    private FeedbackServiceImpl feedbackService;
 
     @PostMapping
     public Feedback create(@RequestBody Feedback feedback) {
@@ -39,5 +39,5 @@ public class FeedbackController {
         feedbackService.delete(feedbackId);
     }
 
-
+*/
 }

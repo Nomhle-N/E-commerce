@@ -3,7 +3,7 @@ package cput.ac.za.ecommerce;
 import cput.ac.za.ecommerce.domain.Feedback;
 import cput.ac.za.ecommerce.domain.ProductReview;
 import cput.ac.za.ecommerce.repository.FeedbackRepository;
-import cput.ac.za.ecommerce.service.FeedbackService;
+import cput.ac.za.ecommerce.service.impl.FeedbackServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -30,7 +30,7 @@ public class FeedbackServiceTest {
     private FeedbackRepository feedbackRepository;
 
     @InjectMocks
-    private FeedbackService feedbackService;
+    private FeedbackServiceImpl feedbackService;
 private Feedback feedback;
     @BeforeEach
     void setUp() {

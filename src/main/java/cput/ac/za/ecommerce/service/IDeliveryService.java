@@ -10,7 +10,7 @@ import cput.ac.za.ecommerce.domain.Delivery;
 
 import java.util.List;
 
-public interface DeliveryService {
+public interface IDeliveryService {
 
     Delivery create(Delivery delivery);
 
